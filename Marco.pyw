@@ -22,7 +22,8 @@ Macros.append({'Name': 'ospotify', 'ProcessCommand': 'SoftwareOpen', 'Process': 
 Macros.append({'Name': 'owinscp', 'ProcessCommand': 'SoftwareOpen', 'Process': "C:\Program Files (x86)\WinSCP\\WinSCP.exe"})
 Macros.append({'Name': 'ogimp', 'ProcessCommand': 'SoftwareOpen', 'Process': "C:\Program Files\GIMP 2\\bin\\gimp-2.8.exe"})
 Macros.append({'Name': 'osublime', 'ProcessCommand': 'SoftwareOpen', 'Process': "C:\Program Files\Sublime Text 3\\sublime_text.exe"})
-Macros.append({'Name': 'ooutlook', 'ProcessCommand': 'SoftwareOpen', 'Process': "C:\Program Files (x86)\Microsoft Office\\root\Office16\\OUTLOOK.exe"})
+Macros.append({'Name': 'oword', 'ProcessCommand': 'SoftwareOpen', 'Process': "C:\Program Files (x86)\Microsoft Office\\root\Office16\\WINWORD.exe"})
+Macros.append({'Name': 'oex', 'ProcessCommand': 'SoftwareOpen', 'Process': "C:\Program Files (x86)\Microsoft Office\\root\Office16\\EXCEL.exe"})
 
 Macros.append({'Name': 'cfirefox', 'ProcessCommand': 'SoftwareClose', 'Process': "firefox.exe"})
 Macros.append({'Name': 'coutlook', 'ProcessCommand': 'SoftwareClose', 'Process': "OUTLOOK.exe"})
@@ -31,6 +32,8 @@ Macros.append({'Name': 'cspotify', 'ProcessCommand': 'SoftwareClose', 'Process':
 Macros.append({'Name': 'cwinscp', 'ProcessCommand': 'SoftwareClose', 'Process': "WinSCP.exe"})
 Macros.append({'Name': 'cgimp', 'ProcessCommand': 'SoftwareClose', 'Process': "gimp-2.8.exe"})
 Macros.append({'Name': 'csublime', 'ProcessCommand': 'SoftwareClose', 'Process': "sublime_text.exe"})
+Macros.append({'Name': 'cword', 'ProcessCommand': 'SoftwareClose', 'Process': "WINWORD.exe"})
+Macros.append({'Name': 'cex', 'ProcessCommand': 'SoftwareClose', 'Process': "EXCEL.exe"})
 
 Macros.append({'Name': 'shutdown', 'ProcessCommand': 'OSCommand', 'Process': "shutdown -s"})
 Macros.append({'Name': 'restart', 'ProcessCommand': 'OSCommand', 'Process': "reboot now"})
